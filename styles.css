@@ -1,0 +1,212 @@
+  @font-face {
+    font-family: 'Carro';
+    src: url('Numberfont.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'Mv_MAG_Round_Bold';
+    src: url('Mv_MAG_Round_Bold.otf') format('opentype');
+  }
+  body {
+    font-family: 'Mv_MAG_Round_Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #008000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    max-height: 8px;
+  }
+  
+  header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 5px;
+    background-color: darkgreen;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  header a:hover {
+    background-color: #7eb681;
+    transform: scale(1.1);
+  }
+  
+  main {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+  }
+  
+  .banner {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .section-divider {
+    border-bottom: 1px solid #ccc;
+    margin: 30px 0;
+  }
+  
+  footer {
+    font-family: 'montserrat', sans-serif;
+    background-color: #008000;
+    color: white;
+    padding: 30px;
+  }
+  
+  .logo {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  
+  .map {
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+  }
+  
+  .employee,
+  .student {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 200px 0 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .employee img,
+  .student img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .student img {
+    width: 100%;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+    color: white; 
+  }
+
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section div {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 15px;
+  }
+  
+  .hr {
+    border-color: #ccc;
+    margin: 30px 0;
+  }
+  
+  .countdown {
+    margin-top: 60px;
+  }
+  
+  .countdown h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .countdown-timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: default;
+  }
+  
+  .countdown-item {
+    font-family: 'Carro', sans-serif;
+    font-size: 50px;
+    margin: 0 15px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .countdown-item:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+  }
+  
+
+  .downloads-section {
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .download-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 1000px;
+    height: 80px;
+  }
+  
+  .file-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .file-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .file-name, .file-size {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .download-button {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #7eb681;
+    transform: scale(1.1);
+  }
